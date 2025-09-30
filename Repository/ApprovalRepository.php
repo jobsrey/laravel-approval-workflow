@@ -182,7 +182,7 @@ class ApprovalRepository
         'u.email',
         'u.fcmToken'
       ])
-      ->from('user u')
+      ->from('users u')
       ->innerJoin('wf_approvals wa', 'wa.user_id = u.id')
       ->where('wa.id = :approval_id')
       ->getStatement();

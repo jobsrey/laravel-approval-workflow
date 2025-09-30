@@ -17,7 +17,7 @@ class UserRepository
         'u.username',
         'p.name',
       ])
-      ->from('user u')
+      ->from('users u')
       ->innerJoin('profile p', 'p.user_id = u.id')
       ->where('u.id = :userId')
       ->getStatement();
@@ -42,7 +42,7 @@ class UserRepository
         'p.name',
         'u.fcmToken',
       ])
-      ->from('user u')
+      ->from('users u')
       ->innerJoin('profile p', 'p.user_id = u.id')
       ->where("u.id IN ($placeholder)")
       ->getStatement();

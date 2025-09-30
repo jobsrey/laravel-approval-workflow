@@ -68,7 +68,7 @@ class ApprovalHistoryRepository
         'wah.date_time',
       ])
       ->from('wf_approval_histories wah')
-      ->leftJoin('user u', 'u.id = wah.user_id')
+      ->leftJoin('users u', 'u.id = wah.user_id')
       ->leftJoin('profile p', 'p.user_id = u.id')
       ->leftJoin('wf_flow_steps wfs', 'wfs.id = wah.flow_step_id')
       ->where('wah.approval_id = :approval_id')
