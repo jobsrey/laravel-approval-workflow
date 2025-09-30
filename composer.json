@@ -1,5 +1,5 @@
 {
-  "name": "idemas/asetkita-approval-workflow",
+  "name": "idemas-asetkita/approval-workflow",
   "autoload": {
     "psr-4": {
       "Idemas\\ApprovalWorkflow\\": ""
