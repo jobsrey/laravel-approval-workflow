@@ -15,10 +15,9 @@ class UserRepository
         'u.id',
         'u.email',
         'u.username',
-        'p.name',
+        'u.name',
       ])
       ->from('users u')
-      ->innerJoin('profile p', 'p.user_id = u.id')
       ->where('u.id = :userId')
       ->getStatement();
 
@@ -39,11 +38,10 @@ class UserRepository
         'u.id',
         'u.email',
         'u.username',
-        'p.name',
+        'u.name',
         'u.fcmToken',
       ])
       ->from('users u')
-      ->innerJoin('profile p', 'p.user_id = u.id')
       ->where("u.id IN ($placeholder)")
       ->getStatement();
 
