@@ -163,7 +163,7 @@ class ApprovalRepository
         'u.fcmToken'
       ])
       ->from('wf_approval_active_users waau')
-      ->innerJoin('user u', 'u.id = waau.user_id')
+      ->innerJoin('users u', 'u.id = waau.user_id')
       ->where('waau.approval_id = :approval_id')
       ->getStatement();
 
