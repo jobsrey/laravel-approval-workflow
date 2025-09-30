@@ -158,7 +158,7 @@ class ApprovalRepository
       ->newSelect()
       ->cols([
         'u.id as user_id',
-        'u.username',
+        'u.name',
         'u.email',
         'u.fcmToken'
       ])
@@ -178,7 +178,7 @@ class ApprovalRepository
       ->newSelect()
       ->cols([
         'u.id as user_id',
-        'u.username',
+        'u.name',
         'u.email',
         'u.fcmToken'
       ])
