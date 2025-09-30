@@ -1,14 +1,14 @@
 {
-  "name": "idemas-asetkita/approval-workflow",
+  "name": "asetkita/approval-workflow",
   "autoload": {
     "psr-4": {
-      "Idemas\\ApprovalWorkflow\\": ""
+      "AsetKita\\ApprovalWorkflow\\": ""
     }
   },
   "authors": [
     {
-      "name": "Riad",
-      "email": "proyekriad@gmail.com"
+      "name": "Rey",
+      "email": "kireniusdena@gmail.com"
     }
   ],
   "require": {

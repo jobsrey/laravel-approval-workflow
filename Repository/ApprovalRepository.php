@@ -1,8 +1,8 @@
 <?php
 
-namespace Idemas\ApprovalWorkflow\Repository;
+namespace AsetKita\ApprovalWorkflow\Repository;
 
-use Idemas\ApprovalWorkflow\Utilities\Utils;
+use AsetKita\ApprovalWorkflow\Utilities\Utils;
 use PDO;
 
 class ApprovalRepository

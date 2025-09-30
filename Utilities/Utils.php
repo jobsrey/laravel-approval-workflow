@@ -1,6 +1,6 @@
 <?php
 
-namespace Idemas\ApprovalWorkflow\Utilities;
+namespace AsetKita\ApprovalWorkflow\Utilities;
 
 use Aura\SqlQuery\QueryFactory;
 use PDO;
