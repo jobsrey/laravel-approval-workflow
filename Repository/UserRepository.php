@@ -14,7 +14,6 @@ class UserRepository
       ->cols([
         'u.id',
         'u.email',
-        'u.username',
         'u.name',
       ])
       ->from('users u')
@@ -37,7 +36,6 @@ class UserRepository
       ->cols([
         'u.id',
         'u.email',
-        'u.username',
         'u.name',
         'u.fcmToken',
       ])
