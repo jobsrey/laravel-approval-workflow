@@ -1,18 +1,18 @@
 {
-    "name": "idemas/approval-workflow",
-    "autoload": {
-        "psr-4": {
-            "Idemas\\ApprovalWorkflow\\": ""
-        }
-    },
-    "authors": [
-        {
-            "name": "Riad",
-            "email": "proyekriad@gmail.com"
-        }
-    ],
-    "require": {
-        "symfony/expression-language": "^5.4",
-        "aura/sqlquery": "^3.0"
+  "name": "idemas/asetkita-approval-workflow",
+  "autoload": {
+    "psr-4": {
+      "Idemas\\ApprovalWorkflow\\": ""
     }
+  },
+  "authors": [
+    {
+      "name": "Riad",
+      "email": "proyekriad@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/expression-language": "^5.4",
+    "aura/sqlquery": "^3.0"
+  }
 }
